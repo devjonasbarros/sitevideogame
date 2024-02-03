@@ -73,10 +73,6 @@ section{
     margin-bottom: 80px;
 }
 
-.descricao{
-text-align: justify;
-
-}
 
 h2{
     margin-bottom: 20px;
@@ -87,10 +83,13 @@ footer p{
     font-size: 24px;
 }
 
-footer{
+footer {
     background-color: black;
     color: #fff;
     padding: 16px 0;
+
+
+    
     
 }
 
@@ -135,4 +134,16 @@ form button:hover{
 
 input:focus, textarea:focus{
     outline-color: rgb(58, 58, 124);
+}
+
+
+.descricao p{
+    text-align: center;
+    font-size: 14px;
+    
+    
+}
+
+footer .container{
+    margin-bottom: 10px;
 }
